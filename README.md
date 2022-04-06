@@ -77,4 +77,6 @@ You can check your balance to make sure the tokens have burnt
 
 ## Send tokens to phantom wallet
 
+You can add new token metadata in your phantom wallet. If it doesn't happen then the phantom wallet will automatically show the token. From there, you can also send the token to others too
+
 `spl-token transfer <TOKEN_ADDRESS> <AMOUNT> <ADDRESS_OF_FRIEND> --url <NETWORK> --fund-recipient`
